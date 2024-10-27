@@ -1,4 +1,6 @@
 
+    /*https://mohs-74.github.io/First-Web/*/
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -6,6 +8,8 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+
+
 
   }
   
@@ -1955,5 +1959,49 @@ footer{
 
     }
 
+
+}
+
+
+
+@media screen and (max-width:380px) {
+
+
+
+    .Span-3 i{
+        font-size:15px;
+    }
+
+    body{
+        overflow-x: hidden;
+
+        overflow-y: scroll;
+    }
+    
+    .Back-ground h1{
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: white;
+        font-size: 22px;
+        z-index: 1;
+    }
+
+
+    footer .Span-2{
+    
+        color: #ddd;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    
+        font-weight: 700;
+    
+        font-size: 11px;
+
+        white-space: nowrap;
+
+        word-wrap: normal;
+    }
 
 }
