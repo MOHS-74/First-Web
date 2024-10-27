@@ -9,7 +9,7 @@
     margin: 0;
     scroll-behavior: smooth;
 
-
+    scroll-padding-top: 120px;
 
   }
   
@@ -1974,8 +1974,6 @@ footer{
 
     body{
         overflow-x: hidden;
-
-        overflow-y: scroll;
     }
     
     .Back-ground h1{
@@ -1984,7 +1982,7 @@ footer{
         font-weight: 600;
         font-style: normal;
         color: white;
-        font-size: 22px;
+        font-size: 20px;
         z-index: 1;
     }
 
